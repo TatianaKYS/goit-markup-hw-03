@@ -8,6 +8,40 @@
 
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+
+cursor: pointer;
+}
+
+.container {
+    width: 1128px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-fourth-section {
+    background-color: var(--item-list-color);
+}
+
 
 .list {
     list-style: none;
@@ -89,7 +123,6 @@ font-family: 'Roboto', sans-serif;
         line-height: 1.19;
         align-items: center;
         letter-spacing: 0.04em;
-        cursor: pointer;
         color: var(--main-text-title);
         background-color: var(--accent-text-color);        
         border-radius: 4px;
@@ -214,7 +247,6 @@ font-family: 'Roboto', sans-serif;
         text-align: center;
         letter-spacing: 0.04em;   
         color: var(--accent-text-color);
-        cursor: pointer;
         border: 1px solid var(--btn-color-white);
         border-radius: 4px;
         
