@@ -21,43 +21,47 @@
   <body>
     <!-- HEADER -->
 
-    <header class="page-header container">
-      <nav class="navigation">
-        <a class="logotype link" href=""
-          >Web<span class="logotype-first-part">Studio</span>
-        </a>
+    <header class="page-header">
+      <div class="container flex-container-header">
+        <nav class="navigation">
+          <a class="logotype link" href=""
+            >Web<span class="logotype-first-part">Studio</span>
+          </a>
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="menu list">
           <li class="menu-item">
-            <a class="menu-link link" href="">Studio</a>
+            <a class="contact-email link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
+            <a class="contact-phone-number link" href="tel:+11(000)111-11-11"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="menu list">
-        <li class="menu-item">
-          <a class="contact-email link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="menu-item">
-          <a class="contact-phone-number link" href="tel:+11(000)111-11-11"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <!-- FIRST SECTION HERO -->
 
     <main>
       <section class="hero">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="modal-btn" type="button">Order Service</button>
+        <div class="container">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button class="modal-btn" type="button">Order Service</button>
+        </div>
       </section>
 
       <!-- SECOND SECTION ADVANTAGES -->
@@ -98,42 +102,44 @@
       <!-- THIRD SECTION WHAT WE ARE DOING -->
 
       <section class="studio-third-section">
-        <h2 class="studio-third-section-header">What are we doing</h2>
-        <ul class="studio-third-section-images list container">
-          <li class="studio-third-section-images-list">
-            <img
-              class="studio-third-section-images-item"
-              src="./images/section3/computer.jpg"
-              alt="computer"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li class="studio-third-section-images-list">
-            <img
-              class="studio-third-section-images-item"
-              src="./images/section3/telephones.jpg"
-              alt="telephone"
-              width="360"
-              height="300"
-            />
-          </li>
-          <li class="studio-third-section-images-list">
-            <img
-              class="studio-third-section-images-item"
-              src="./images/section3/telephone-one.jpg"
-              alt="telephones"
-              width="360"
-              height="300"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="studio-third-section-header">What are we doing</h2>
+          <ul class="studio-third-section-images list container">
+            <li class="studio-third-section-images-list">
+              <img
+                class="studio-third-section-images-item"
+                src="./images/section3/computer.jpg"
+                alt="computer"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li class="studio-third-section-images-list">
+              <img
+                class="studio-third-section-images-item"
+                src="./images/section3/telephones.jpg"
+                alt="telephone"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li class="studio-third-section-images-list">
+              <img
+                class="studio-third-section-images-item"
+                src="./images/section3/telephone-one.jpg"
+                alt="telephones"
+                width="360"
+                height="300"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
 
       <!-- FOURTH SECTION OUR TEAM -->
 
-      <div class="div-fourth-section">
-        <section class="studio-fourth-section container">
+      <section class="studio-fourth-section">
+        <div container>
           <h2 class="studio-fourth-section-header">Our Team</h2>
           <ul class="studio-fourth-section-images list container">
             <li class="studio-fourth-section-images-group">
@@ -181,20 +187,22 @@
               <p class="under-picture-description">UI Designer</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!-- FOOTER -->
 
     <footer class="footer-background">
-      <a class="footer-logotype link" href=""
-        ><span class="footer-logo-first-part">Web</span>Studio</a
-      >
-      <p class="footer-sentense">
-        Increase the flow of customers and sales for your business with digital
-        marketi ng & growth solutions.
-      </p>
+      <div container>
+        <a class="footer-logotype link" href=""
+          ><span class="footer-logo-first-part">Web</span>Studio</a
+        >
+        <p class="footer-sentense">
+          Increase the flow of customers and sales for your business with
+          digital marketi ng & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

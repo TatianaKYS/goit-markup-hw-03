@@ -15,38 +15,40 @@
   </head>
   <body>
     <header class="page-header">
-      <nav class="navigation">
-        <a class="logotype link" href=""
-          >Web<span class="logotype-first-part">Studio</span></a
-        >
+      <div class="container flex-container-header">
+        <nav class="navigation">
+          <a class="logotype link" href=""
+            >Web<span class="logotype-first-part">Studio</span>
+          </a>
+          <ul class="menu list">
+            <li class="menu-item">
+              <a class="menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="menu list">
           <li class="menu-item">
-            <a class="menu-link link" href="./index.html">Studio</a>
+            <a class="contact-email link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li class="menu-item">
-            <a class="menu-link link" href="">Portfolio</a>
-          </li>
-          <li class="menu-item">
-            <a class="menu-link link" href="">Contacts</a>
+            <a class="contact-phone-number link" href="tel:+11(000)111-11-11"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
-      </nav>
-      <ul class="menu list">
-        <li class="menu-item">
-          <a class="contact-email link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contact-phone-number link" href="tel:+11(000)111-11-11"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
-      <section class="portfolio-first-section">
+      <section class="portfolio-first-section container">
         <ul class="filter-list list">
           <li class="filter-item">
             <button class="filter-btn" type="button">All</button>
@@ -156,14 +158,17 @@
         </ul>
       </section>
     </main>
+
     <footer class="footer-background">
-      <a class="footer-logotype link" href=""
-        ><span class="footer-logo-first-part">Web</span>Studio</a
-      >
-      <p class="footer-sentense">
-        Increase the flow of customers and sales for your business with digital
-        marketi ng & growth solutions.
-      </p>
+      <div container>
+        <a class="footer-logotype link" href=""
+          ><span class="footer-logo-first-part">Web</span>Studio</a
+        >
+        <p class="footer-sentense">
+          Increase the flow of customers and sales for your business with
+          digital marketi ng & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
