@@ -34,7 +34,9 @@ cursor: pointer;
 
 
 .container {
-    width: 1128px;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -43,6 +45,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     
 }
 
@@ -79,7 +82,6 @@ cursor: pointer;
 .advantages-list {
     display: flex;
     justify-content: space-between;
-
     gap: 24px;
    
   
@@ -190,7 +192,18 @@ font-family: 'Roboto', sans-serif;
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+   
 }
+
+
+
+.page-header-studio {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+}
+
 
 
 
@@ -202,9 +215,12 @@ font-family: 'Roboto', sans-serif;
         letter-spacing: 0.02em;
         text-align: center;
         color: var(--main-text-title);
-        padding-top: 192px;
-        padding-left: 316px;
-        padding-right: 316px;
+        width: 496px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 48px;
+        
+       
         
 
 }
@@ -224,9 +240,10 @@ font-family: 'Roboto', sans-serif;
         padding-top: 16px;
         padding-bottom: 16px;
         padding-left: 32px;
-        padding-right: 32px;
-        margin-top: 48px;
-        margin-left: 474px;
+        padding-right: 32px;       
+        display: block;
+        margin: 0 auto;
+        
 
 }
 
@@ -337,13 +354,19 @@ font-family: 'Roboto', sans-serif;
 }
 
 .hero {
+    
+   
+   
     background-color :var(--main-text-color);
     height: 603px;
+    padding-top: 192px;
+    padding-bottom: 192px;
+   
 }
 
 .footer-background {
     background-color :var(--main-text-color);
-    height: 310px;
+    
 }
 
 .footer-sentense {     
@@ -400,6 +423,7 @@ font-family: 'Roboto', sans-serif;
 
 .footer {
    padding-top: 100px; 
+   padding-bottom: 100px;
 
 }
 
@@ -421,7 +445,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     padding-top: 96px;
     
 }
