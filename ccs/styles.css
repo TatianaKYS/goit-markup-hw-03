@@ -421,6 +421,12 @@ font-family: 'Roboto', sans-serif;
 }
 
 
+.portfolio-first-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
+
 .footer {
    padding-top: 100px; 
    padding-bottom: 100px;
