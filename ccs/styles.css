@@ -446,7 +446,7 @@ font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 72px;
-    padding-top: 96px;
+    
     
 }
 
@@ -466,7 +466,7 @@ font-family: 'Roboto', sans-serif;
 .portfolio-images {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 120px;
+    
 }
 
 .portfolio-images-group:not(:nth-child(3n)) {
